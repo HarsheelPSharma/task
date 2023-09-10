@@ -1,43 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  Harsheel Portfolio  </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2e7f36a4ce.js" crossorigin="anonymous"></script>
+</head>
+<body>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<div id="header">
+        
+<div class = "container">
+    <nav>
+        <h1>Harsheel's Portfolio</h1>
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+ </ul>
+    </nav>
+    <div class="header-text">
+        <h1>Hi, I'm <span>Harsheel</span> <br>and I am a passionate <span>Web Designer</span> </h1>
+    </div>
+</div>
+ </div>
+ <!-- about me-->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="WhatsApp_Image_2023-08-28_at_10.13.08-removebg-preview-fotor-bg-remover-20230828221158.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <br>
+                <p>
+                    A student who is always passionate to learn new things and do things with full Determination and Honesty.I'm  Hardworking, diligent and dedicated to all qualities I put forward in everything I do.
+                   Looking Forward an exciting position in the Committee and improve my knowledge,skills and make a good relation with colleagues </p>
+          
+                    <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                    <p class="tab-links"  onclick=  "opentab('projects')" >Projects</p>
+                    <p class="tab-links" onclick= "opentab('education')"  >Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><Br>Designing Web/App Interface</li>
+                            <li><span>Web Development</span><Br>Basic command on HTML & CSS </li>
+                            <li><span>Canva Designer</span><Br>Creating Social Media graphics</li>
+                            <li><span>C , Java</span><Br>A vigorous programmer having basic knowledge in both the language</li>
+                                
+                        </ul>
+                    </div>
+                
+                    <div class="tab-contents " id="projects">
+                        <ul>
+                            <li><span>Youtube UI clone</span><Br>using purely HTML and CSS</li>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+                            <li><span>E-commerce website(Myntra clone)</span><Br>using puely HTMl,CSS & Javascript </li>
+                            <li><span>various Posters and Reel</span><Br>using the help of canva</li>
+                           </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+                            <li><span>2020</span><Br> Schooling from Rainbow international School and passed 10 with 94%
+                            <li><span>2022</span><Br> got 92.17% in 12th from Lakshya prep High School and Junior College  </li>
+                            <li><span>2022</span><Br> Dwarkadas J.Sanghvi College of Engineering (in Second Year) </li>
+
+                            </ul>
+                            </div>
+                </div>
+            </div>
+
+        </div>
+         </div>
+         <!-- projects -->
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Youtube UI clone</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident maiores dolore accusamus ipsa odio quod vel facere temporibus ratione recusandae nulla sequi aspernatur, natus voluptatibus quam porro cum quae dolor!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-amazon"></i>
+                <h2>E-commerce website </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae unde magnam dolorum sunt culpa amet numquam illo vel dolores voluptatum. Placeat necessitatibus perspiciatis, assumenda deserunt atque excepturi tenetur blanditiis quo.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-video"></i>
+                <h2> Posters and Reel</h2>
+                <p>Lorem ipsum dolor  consectetur adipisicing elit.repellat voluptatibus quos obcaecati natus consectetur laboriosam maxime inventore? Culpa voluptatem voluptatibus autem. Iste provident saepe eos quo laborum accusantium! Alias.</p>
+            <a href="#">Learn more</a>
+        </div>
+            
+
+        </div>
+    </div>
+
+</div> 
+<!-- my skills     -->
+<div id="skill">
+<div class="container">
+    <h1 class="sub-title">My Skills</h1>
+    <div class="worklist">
+        <div class="work">
+            <img src="1.png">
+            <div class="layer">
+                <h3>Frontend Developer</h3>
+                <p>frontend consists of learning  HTML, CSS and javascript</p>
+                <a href="#" ><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+
+        </div>
+        <div class="work">
+            <img src="Canva-850x476.jpg">
+            <div class="layer">
+                <h3>Canva Designer</h3>
+                <p>Made various posters for different committee interview round </p>
+                <a href="#" ><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="youtube.png.png">
+            <div class="layer">
+                <h3>Basic HTML & CSS</h3>
+                <p>Youtube UI clone using purely HTML and CSS to have a command on frontend </p>
+                <a href="#" ><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+    </div>
+    </div>
+    </div>
+    <a href="#" class="button">See more</a>
+</div>
+
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <P><i class="fa-solid fa-paper-plane"></i> sharmaharsheel@gmail.com </P>
+            <p><i class="fa-solid fa-square-phone"></i> 9967518066 </p>
+            <div class="social-icons">
+            <a href="https://www.instagram.com/direct/t/17844227399324999/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://in.search.yahoo.com/search?fr=mcafee&type=E210IN826G0&p=facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://in.search.yahoo.com/search?fr=mcafee&type=E210IN826G0&p=twitter"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="https://in.linkedin.com/?src=go-pa&trk=sem-ga_campid.14650114788_asid.151761418307_crid.657403558721_kw.linkedin%20login_d.c_tid.kwd-12704335873_n.g_mt.e_geo.9302184&mcid=6844056167778418689&cid=&gclid=Cj0KCQjwl8anBhCFARIsAKbbpySEzgPEaxEIlTP8BOtVNmMiszL914z3s1g0VRbuWbzUfno6ltqfoLUaAoOJEALw_wcB&gclsrc=aw.ds"><i class="fa-brands fa-linkedin"></i></a>
+
+
+            </div>
+            <a href="my-cv.pdf" class="button button2"> Download CV </a>
+        </div>
+        <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Enter your Name"required>
+                <input type="email" name="email" placeholder="Enter your Email"required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="button button2"> Submit </button>
+                 
+            </form>
+        </div>
+</div>       
+</div>
+</div>
+<div class="copyright">
+    <P>Copyright Harsheel.Made By <i class="fa-solid fa-copyright"></i>Harsheel Sharma</P>
+</div>
+</div>
+    
+   
+   
+   
+   <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+           event.currentTarget.classList.add("active-link");
+           document.getElementById(tabname).classList.add("active-tab");
+        }
+        </script>
+</body>
 </html>
